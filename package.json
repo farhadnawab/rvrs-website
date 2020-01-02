@@ -1,0 +1,24 @@
+{
+  "name": "rvrs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "npx tailwind build assets/css/style.css -o assets/css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaorPenso/rvrs-website.git"
+  },
+  "author": "Farhad Nawab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaorPenso/rvrs-website/issues"
+  },
+  "homepage": "https://github.com/NaorPenso/rvrs-website#readme"
+}

@@ -1,0 +1,134 @@
+<! DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+  <title>RVRS</title>	
+
+  <meta name="keywords" content="RVRS" />
+  <meta name="description" content="RVRS">
+  <meta name="author" content="https://github.com/farhadnawab">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.ico">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    
+  <link href="assets/css/output.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+  <!-- Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ </head>
+ <body class="front leading-normal tracking-normal bg-white font-geomanist font-normal text-default">
+
+  <div class="main-wrapper overflow-hidden">
+    
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0">
+
+        <div class="w-full container max-w-6xl mx-auto px-4 py-4 flex items-center">
+
+            <div class="md:flex-1" data-aos="fade-right">
+                <a class="block w-24 sm:max-w-6xs logo" href="index.html">
+                    <img src="assets/img/logo.png" />
+                </a>
+            </div>
+
+            <div class="flex-1 text-center hidden md:block" data-aos="zoom-in" data-aos-delay="50">
+              <a href="javascript:void(0)" class="capitalize inline-block mr-6 hover:text-primary">Explore</a>
+              <a href="javascript:void(0)" class="capitalize inline-block mr-6 hover:text-primary">Pricing</a>
+              <a href="javascript:void(0)" class="capitalize inline-block mr-6 hover:text-primary">About</a>
+            </div>
+
+            <div class="flex-1 text-right" data-aos="fade-left" data-aos-delay="50">
+              <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-lg py-1 sm:py-2 px-3 sm:px-8 hover:bg-lightgray">Login</a>
+              <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-white text-lg py-1 sm:py-2 px-3 sm:px-8 bg-primary hover:bg-secondary">Sign Up</a>
+
+              <button id="nav-toggle" class="inline-block md:hidden align-middle px-3 py-2 appearance-none focus:outline-none" type="button" onclick="openMenu()">
+                  <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                  </svg>
+              </button>
+            </div>
+
+            <div class="w-full h-full py-20 px-5 z-50 bg-primary fixed top-0 left-0" id="nav-content">
+                <button class="absolute top-0 right-0 mr-5 mt-5" type="button" onclick="closeMenu()">
+                    <svg width="36px" height="36px" viewBox="0 0 36 36">
+                        <path d="M13.2813 11.7189L13.2813 0.780128C13.2813 0.349208 12.9319 -0.00012207 12.501 -0.00012207L12.499 -0.00012207C12.0681 -0.00012207 11.7188 0.349208 11.7188 0.780128L11.7188 11.7189L0.78025 11.7189C0.34933 11.7189 0 12.0682 0 12.4991L0 12.5011C0 12.932 0.34933 13.2814 0.78025 13.2814L11.7188 13.2814L11.7188 24.2196C11.7188 24.6505 12.0681 24.9999 12.499 24.9999L12.501 24.9999C12.9319 24.9999 13.2813 24.6505 13.2813 24.2196L13.2813 13.2814L24.2197 13.2814C24.6507 13.2814 25 12.932 25 12.5011L25 12.4991C25 12.0682 24.6507 11.7189 24.2197 11.7189L13.2813 11.7189Z" transform="matrix(0.7071066 0.7071069 -0.7071069 0.7071066 17.67773 0)" id="Combined-Shape" fill="#1A1919" fill-rule="evenodd" stroke="none" />
+                    </svg>
+                </button>
+
+                <ul class="list-reset flex h-full flex-col w-full max-w-2xl mx-auto text-5xl text-white font-hairline capitalize align-center justify-center text-center">
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="javascript:void(0)">Explore</a>
+                    </li>
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="javascript:void(0)">Pricing</a>
+                    </li>
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="javascript:void(0)">About</a>
+                    </li>
+                </ul>                
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Banner Section-->
+    <div class="w-full container max-w-6xl mx-auto px-4 py-16">
+      
+      <div class="flex flex-col sm:flex-row sm:flex-row-reverse">
+
+          <!--Right Col-->
+          <div class="flex-1" data-aos="fade-in" data-aos-delay="150" data-aos-offset="-1000">
+            <lottie-player
+            src="assets/animations/rvrs_opening_animation.json"  background="transparent"  speed="1" autoplay
+            class="w-full">
+            </lottie-player>
+          </div>
+          
+          <!--Left Col-->
+          <div class="flex-1 pt-4 sm:pr-10 text-center sm:text-left">
+              
+              <h1 class="text-4xl lg:text-5xl leading-tight" data-aos="fade-down" data-aos-delay="100" data-aos-offset="-1000">Transform signatures
+                into insights and expedite cyber operations</h1>
+              
+              <div class="mt-6" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-1000">
+                <p class="leading-normal opacity-50 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat provident nulla, iusto beatae sunt ratione id tempora similique odit esse sed incidunt illo veniam voluptatem cum perferendis omnis maiores ipsam.</p>
+              </div>
+
+              <div class="mt-10" data-aos="fade-up" data-aos-delay="50" data-aos-offset="-1000">
+                <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-white hover:text-primary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-primary bg-primary hover:bg-transparent mr-2">Get Started</a>
+                <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-white hover:text-secondary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-secondary bg-secondary hover:bg-transparent">Learn More</a>
+              </div>
+
+              <div class="mt-20" data-aos="fade-up" data-aos-delay="50" data-aos-offset="-1000">
+                <img class="inline-block w-full" src="assets/img/logos.png">
+              </div>
+
+          </div>
+
+      </div>
+
+    </div>
+
+    
+  </div>
+   
+</body>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ 
+ <!-- Animate On Scroll -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+ <!-- Lottie Animation Player -->
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+ <script src="assets/js/main.js"></script> 
+</html>
