@@ -1,5 +1,5 @@
 
-/* Fonts Included */
+/* BACKUP CSS
 @font-face {
     font-family: 'geomanist';
     src: url('../fonts/Geomanist-Black-Webfont/geomanist-black-webfont.eot');
@@ -88,6 +88,74 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
+
+/* Fonts Included */
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Black-Webfont/geomanist-black-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Black-Webfont/geomanist-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Light-Webfont/geomanist-light-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Light-Webfont/geomanist-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanist';
+    src: url('../fonts/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'geomanistbook';
+    src: url('../fonts/Geomanist-Book-Webfont/geomanist-book-webfont.woff2') format('woff2'),
+         url('../fonts/Geomanist-Book-Webfont/geomanist-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 
 @tailwind base;
 
