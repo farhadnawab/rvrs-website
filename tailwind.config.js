@@ -73,6 +73,10 @@ module.exports = {
       },
       backgroundPosition:{
         'right-center': 'right center'
+      },
+      boxShadow:{
+        'one': '-20px 30px 80px rgba(0,0,0,0.18)',
+        'two': '-25px 30px 80px rgba(40,44,65,0.26)'
       }
     }
   },

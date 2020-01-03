@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
     
   <link href="assets/css/output.css" type="text/css" rel="stylesheet" />
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">-->
+  <script src="https://kit.fontawesome.com/c772f6a9db.js" crossorigin="anonymous"></script>
 
   <!-- Animate On Scroll -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -103,12 +103,13 @@
               </div>
 
               <div class="mt-10" data-aos="fade-up" data-aos-delay="50" data-aos-offset="-1000">
-                <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-white hover:text-primary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-primary bg-primary hover:bg-transparent mr-2">Get Started</a>
-                <a href="javascript:void(0)" class="inline-block align-middle rounded-sm text-white hover:text-secondary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-secondary bg-secondary hover:bg-transparent">Learn More</a>
+                <a href="https://app.rvrs.io/register" class="inline-block align-middle rounded-sm text-white hover:text-primary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-primary bg-primary hover:bg-transparent mr-2">Get Started</a>
+                <a href="#learn-more-target" class="inline-block align-middle rounded-sm text-white hover:text-secondary text-lg py-3 sm:py-4 px-4 sm:px-6 border-2 border-solid border-secondary bg-secondary hover:bg-transparent">Learn More</a>
               </div>
 
               <div class="mt-20" data-aos="fade-up" data-aos-delay="50" data-aos-offset="-1000">
                 <img class="inline-block w-full" src="assets/img/logos.png">
+                <div id="learn-more-target"></div>
               </div>
 
           </div>
@@ -122,16 +123,17 @@
       <div class="w-full container max-w-6xl mx-auto px-4 py-16 text-white">                        
           <div class="flex items-center">
             <h1 class="flex-1 text-4xl lg:text-5xl leading-tight">Intelligence with a positive attitude</h1>
-            <a href="javascript:void(0)" class="inline-flex items-center rounded-sm text-white hover:text-white text-lg py-1 sm:py-2 px-3 sm:px-6 border-2 border-solid border-secondary hover:border-white bg-secondary hover:bg-transparent">
-              <img class="mr-2 w-5" src="assets/img/api_btn.svg" /> See our API
+
+            <a href="api/index.html" class="inline-flex items-center rounded-sm text-white hover:text-white text-lg py-1 sm:py-2 px-3 sm:px-6 border-2 border-solid border-secondary hover:border-white bg-secondary hover:bg-transparent">
+              <i class="fad fa-puzzle-piece inline-block align-middle text-lg -mt-1 mr-2"></i> See our API
             </a>
           </div>
           
           <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center" style="box-shadow: -20px 30px 80px rgba(0,0,0,0.18);">
+              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center shadow-one">
                 
-                <img class="inline-block w-12" src="assets/img/icons--guard.svg" />
+                <i class="far fa-shield-check inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">File Insights</div>
                 <p class="leading-normal opacity-50 mt-2">Convert any file signature to a complete history of the file, associated packages</p>
@@ -143,9 +145,9 @@
             </div>
 
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-5 pb-20 text-center" style="box-shadow: -20px 30px 80px rgba(0,0,0,0.18);">
+              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-5 pb-20 text-center shadow-one">
                 
-                <img class="inline-block w-12" src="assets/img/icons--guard2.svg" />
+                <i class="far fa-layer-group inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">Package Insights</div>
                 <p class="leading-normal opacity-50 mt-2">Validate packages, patch levels, updates and dependencies</p>
@@ -155,9 +157,9 @@
             </div>
 
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center" style="box-shadow: -20px 30px 80px rgba(0,0,0,0.18);">
+              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center shadow-one">
                 
-                <img class="inline-block w-12" src="assets/img/icons--guard3.svg" />
+                <i class="far fa-cube inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">OS Validation</div>
                 <p class="leading-normal opacity-50 mt-2">Compare OS images and containers with official distributions of operating systems</p>
@@ -169,9 +171,156 @@
           </div>
               
       </div>
-  </section>
+    </section>
+
+    <!-- The Awsome Things Section -->
+    <section class="overflow-hidden relative" data-aos="fade-up" data-aos-duration="1000">
+      <div class="w-full container max-w-6xl mx-auto px-4 py-16">                        
+          
+          <h1 class="text-center sm:text-left sm:w-1/2 text-4xl lg:text-5xl leading-tight mb-16">The awsome things you can do with rvrs</h1>
+          
+          <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
+            <div class="sm:flex-1 py-4 px-6 lg:px-10">
+              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
+                
+                <i class="far fa-cube inline-block text-xl text-primary group-hover:text-white"></i>
+                
+
+                <div class="text-3xl mt-2">Forensics</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Focus on abnormal files, services and packages on the investigated server and create cross-organization prevelance</p>
+                
+                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
+              </div>
+            </div>
+
+            <div class="sm:flex-1 py-4 px-6 lg:px-10">
+              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
+                
+                <i class="far fa-fire-alt inline-block text-xl text-primary group-hover:text-white"></i>
+                
+
+                <div class="text-3xl mt-2">CI/CD Security</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Integrate rvrs to your CI/CD pipeline and identify rogue service injection into containers and unknown files in OS images</p>
+                
+                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
+                <img data-aos="fade-left" data-aos-delay="700" class="hidden sm:block absolute -z-10 top-0 right-0 pointer-events-none man-position" src="assets/img/man-vector.svg" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
+            <div class="sm:flex-1 py-4 px-6 lg:px-10">
+              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
+                
+                <i class="fad fa-puzzle-piece inline-block text-xl text-primary group-hover:text-white"></i>
+                
+
+                <div class="text-3xl mt-2">Server Hardening</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Create the definitive list of services and packages installed on a server and whitelist all associated files and versions.</p>
+                
+                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
+              </div>
+            </div>
+
+            <div class="sm:flex-1 py-4 px-6 lg:px-10">
+              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
+                
+                <i class="far fa-layer-group inline-block text-xl text-primary group-hover:text-white"></i>
+                
+
+                <div class="text-3xl mt-2">File Integrity Monitoring</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Validate the integrity of files based on their signature and generate a file integrity monitoring policy based on true server usage</p>
+                
+                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
+              </div>
+            </div>
+
+          </div>
+              
+      </div>
+    </section>
+
+
 
     
+
+    <!--Footer
+    <footer class="bg-tertiary text-white relative z-10">
+        <div class="container w-full max-w-6xl px-10 pt-12 pb-0 md:py-12 mx-auto">
+
+            <div class="flex flex-col text-center md:flex-row md:text-left pb-12">
+
+                
+                <div class="flex-1 md:mr-24">
+                    
+                    <a class="inline-block max-w-5xs logo mb-10" href="index.html">
+                        <img src="assets/img/logo.svg" />
+                    </a>
+
+                    <p class="opacity-75 leading-loose md:mb-5">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who</p>
+                    
+                    <ul class="footer-social-icons flex flex-wrap justify-center md:justify-start text-xl text-tertiary md:mt-5 -ml-2">
+                        <li class="p-2 mt-2"><a href="/" class="bg-white hover:bg-primary hover:text-white rounded-full w-8 h-8 flex items-center justify-center"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="p-2 mt-2"><a href="/" class="bg-white hover:bg-primary hover:text-white rounded-full w-8 h-8 flex items-center justify-center"><i class="fab fa-twitter"></i></a></li>
+                      </ul>
+                </div>
+
+                <div class="md:w-48 md:mr-24 mt-8">
+                    <h1 class="font-semibold text-2xl mb-2 md:mb-10">Quicklinks</h1>
+
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Home</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">About</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum Dolor</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="md:w-48 mt-8">
+                    <h1 class="font-semibold text-2xl mb-2 md:mb-10">Contact Info</h1>
+
+                    <div class="opacity-75">
+                      <div class="group flex justify-center md:justify-start leading-tight mt-6">
+                        <i class="fas fa-map-marker-alt mr-4 text-2xl"></i>
+                        <span>23, Harvest Avenue,
+                        South California, U.S.A</span>
+                      </div>
+                      
+                      <div class="group flex justify-center md:justify-start items-center leading-tight mt-6">
+                        <i class="fas fa-envelope mr-4 text-2xl"></i>
+                        <a href="mailto:contact@codestudio.com" class="no-underline">contact@filty.com</a>
+                      </div>
+                      
+                      <div class="group flex justify-center md:justify-start items-center leading-tight mt-6">
+                        <i class="fas fa-phone-alt mr-4 text-2xl"></i>
+                        <a href="tel:118001175222" class="no-underline">1234-567-8910</a>
+                      </div>
+                    </div>
+                </div>  
+
+            </div>
+
+            <hr class="border-white opacity-75 -ml-40 -mr-40" />
+
+            <div class="overflow-hidden py-4 text-center sm:text-left">
+              <span class="sm:float-left block opacity-75">2018 Codestudio. All rights reserved</span>
+
+              <a href="#" class="sm:float-right block text-white opacity-75 hover:opacity-100 underline sm:no-underline">Terms and Conditions</a>
+            </div>
+        </div>
+    </footer>-->
   </div>
    
 </body>

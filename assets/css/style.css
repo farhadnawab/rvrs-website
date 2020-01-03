@@ -189,41 +189,6 @@
     @apply bg-tertiary;   
 }
 
-/* Thumbnail hover effect */
-.thumb-hover{
-    @apply block;
-    @apply relative;
-    @apply overflow-hidden;
-}
-.thumb-hover:after {
-    content: "";
-    @apply bg-primary;
-    opacity: 0.3;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    position: absolute;
-    height: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 1;
-}
-.thumb-hover img{
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.thumb-hover:hover img{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.thumb-hover:hover:after{
-    @apply h-full;
-}
-
 #nav-content{
     visibility: hidden;
     opacity: 0;
@@ -242,6 +207,10 @@
     transition: all ease 0.3s;
 }
 
+.man-position{
+    max-width: none;
+}
+
 html{
     font-size: 11px;
 }
@@ -255,16 +224,37 @@ html{
     html{
         font-size: 13px;
     }
+
+    .man-position{
+        width: 420px;
+        height: 545.5px;
+        margin-top: -301px;
+        margin-right: -110px;
+    }
 }
   
 @media (min-width: 1024px) {
     html{
         font-size: 14px;
     }
+
+    .man-position{
+        width: 500px;
+        height: 545.5px;
+        margin-top: -305px;
+        margin-right: -230px;
+    }
 }
   
 @media (min-width: 1280px) {
     html{
         font-size: 16px;
+    }
+
+    .man-position{
+        width: 636px;
+        height: 545.5px;
+        margin-top: -315px;
+        margin-right: -290px;
     }
 }
