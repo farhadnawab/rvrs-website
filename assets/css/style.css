@@ -207,6 +207,9 @@
     transition: all ease 0.3s;
 }
 
+#yearly-mark{color: #9cb0c0;}
+#yearly-mark.active{@apply text-design-orange;}
+
 .man-position{
     max-width: none;
 }

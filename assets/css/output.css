@@ -1348,6 +1348,10 @@ video {
   background-color: #262626;
 }
 
+.bg-design-orange {
+  background-color: #ff6641;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1706,6 +1710,10 @@ video {
 
 .hover\:bg-default:hover {
   background-color: #262626;
+}
+
+.hover\:bg-design-orange:hover {
+  background-color: #ff6641;
 }
 
 .focus\:bg-transparent:focus {
@@ -2068,6 +2076,10 @@ video {
   background-color: #262626;
 }
 
+.focus\:bg-design-orange:focus {
+  background-color: #ff6641;
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -2426,6 +2438,10 @@ video {
 
 .group:hover .group-hover\:bg-default {
   background-color: #262626;
+}
+
+.group:hover .group-hover\:bg-design-orange {
+  background-color: #ff6641;
 }
 
 .bg-bottom {
@@ -3120,6 +3136,10 @@ video {
   border-color: #f6f6f6;
 }
 
+.border-design-orange {
+  border-color: #ff6641;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -3474,6 +3494,10 @@ video {
 
 .hover\:border-lightgray:hover {
   border-color: #f6f6f6;
+}
+
+.hover\:border-design-orange:hover {
+  border-color: #ff6641;
 }
 
 .focus\:border-transparent:focus {
@@ -3832,6 +3856,10 @@ video {
   border-color: #f6f6f6;
 }
 
+.focus\:border-design-orange:focus {
+  border-color: #ff6641;
+}
+
 .group:hover .group-hover\:border-transparent {
   border-color: transparent;
 }
@@ -4186,6 +4214,10 @@ video {
 
 .group:hover .group-hover\:border-lightgray {
   border-color: #f6f6f6;
+}
+
+.group:hover .group-hover\:border-design-orange {
+  border-color: #ff6641;
 }
 
 .rounded-none {
@@ -17620,6 +17652,26 @@ video {
   color: #262626;
 }
 
+.placeholder-design-orange::-webkit-input-placeholder {
+  color: #ff6641;
+}
+
+.placeholder-design-orange::-moz-placeholder {
+  color: #ff6641;
+}
+
+.placeholder-design-orange:-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.placeholder-design-orange::-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.placeholder-design-orange::placeholder {
+  color: #ff6641;
+}
+
 .hover\:placeholder-transparent:hover::-webkit-input-placeholder {
   color: transparent;
 }
@@ -19418,6 +19470,26 @@ video {
 
 .hover\:placeholder-default:hover::placeholder {
   color: #262626;
+}
+
+.hover\:placeholder-design-orange:hover::-webkit-input-placeholder {
+  color: #ff6641;
+}
+
+.hover\:placeholder-design-orange:hover::-moz-placeholder {
+  color: #ff6641;
+}
+
+.hover\:placeholder-design-orange:hover:-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.hover\:placeholder-design-orange:hover::-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.hover\:placeholder-design-orange:hover::placeholder {
+  color: #ff6641;
 }
 
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -21220,6 +21292,26 @@ video {
   color: #262626;
 }
 
+.focus\:placeholder-design-orange:focus::-webkit-input-placeholder {
+  color: #ff6641;
+}
+
+.focus\:placeholder-design-orange:focus::-moz-placeholder {
+  color: #ff6641;
+}
+
+.focus\:placeholder-design-orange:focus:-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.focus\:placeholder-design-orange:focus::-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.focus\:placeholder-design-orange:focus::placeholder {
+  color: #ff6641;
+}
+
 .group:hover .group-hover\:placeholder-transparent::-webkit-input-placeholder {
   color: transparent;
 }
@@ -23020,6 +23112,26 @@ video {
   color: #262626;
 }
 
+.group:hover .group-hover\:placeholder-design-orange::-webkit-input-placeholder {
+  color: #ff6641;
+}
+
+.group:hover .group-hover\:placeholder-design-orange::-moz-placeholder {
+  color: #ff6641;
+}
+
+.group:hover .group-hover\:placeholder-design-orange:-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.group:hover .group-hover\:placeholder-design-orange::-ms-input-placeholder {
+  color: #ff6641;
+}
+
+.group:hover .group-hover\:placeholder-design-orange::placeholder {
+  color: #ff6641;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -24112,6 +24224,10 @@ video {
   color: #262626;
 }
 
+.text-design-orange {
+  color: #ff6641;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -24470,6 +24586,10 @@ video {
 
 .hover\:text-default:hover {
   color: #262626;
+}
+
+.hover\:text-design-orange:hover {
+  color: #ff6641;
 }
 
 .focus\:text-transparent:focus {
@@ -24832,6 +24952,10 @@ video {
   color: #262626;
 }
 
+.focus\:text-design-orange:focus {
+  color: #ff6641;
+}
+
 .group:hover .group-hover\:text-transparent {
   color: transparent;
 }
@@ -25190,6 +25314,10 @@ video {
 
 .group:hover .group-hover\:text-default {
   color: #262626;
+}
+
+.group:hover .group-hover\:text-design-orange {
+  color: #ff6641;
 }
 
 .text-xs {
@@ -27237,6 +27365,14 @@ video {
   transition: all ease 0.3s;
 }
 
+#yearly-mark{
+  color: #9cb0c0;
+}
+
+#yearly-mark.active{
+  color: #ff6641;
+}
+
 .man-position{
   max-width: none;
 }
@@ -27815,6 +27951,10 @@ html{
     background-color: #262626;
   }
 
+  .sm\:bg-design-orange {
+    background-color: #ff6641;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -28173,6 +28313,10 @@ html{
 
   .sm\:hover\:bg-default:hover {
     background-color: #262626;
+  }
+
+  .sm\:hover\:bg-design-orange:hover {
+    background-color: #ff6641;
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -28535,6 +28679,10 @@ html{
     background-color: #262626;
   }
 
+  .sm\:focus\:bg-design-orange:focus {
+    background-color: #ff6641;
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -28893,6 +29041,10 @@ html{
 
   .group:hover .sm\:group-hover\:bg-default {
     background-color: #262626;
+  }
+
+  .group:hover .sm\:group-hover\:bg-design-orange {
+    background-color: #ff6641;
   }
 
   .sm\:bg-bottom {
@@ -29587,6 +29739,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .sm\:border-design-orange {
+    border-color: #ff6641;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -29941,6 +30097,10 @@ html{
 
   .sm\:hover\:border-lightgray:hover {
     border-color: #f6f6f6;
+  }
+
+  .sm\:hover\:border-design-orange:hover {
+    border-color: #ff6641;
   }
 
   .sm\:focus\:border-transparent:focus {
@@ -30299,6 +30459,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .sm\:focus\:border-design-orange:focus {
+    border-color: #ff6641;
+  }
+
   .group:hover .sm\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -30653,6 +30817,10 @@ html{
 
   .group:hover .sm\:group-hover\:border-lightgray {
     border-color: #f6f6f6;
+  }
+
+  .group:hover .sm\:group-hover\:border-design-orange {
+    border-color: #ff6641;
   }
 
   .sm\:rounded-none {
@@ -44087,6 +44255,26 @@ html{
     color: #262626;
   }
 
+  .sm\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .sm\:hover\:placeholder-transparent:hover::-webkit-input-placeholder {
     color: transparent;
   }
@@ -45885,6 +46073,26 @@ html{
 
   .sm\:hover\:placeholder-default:hover::placeholder {
     color: #262626;
+  }
+
+  .sm\:hover\:placeholder-design-orange:hover::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:hover\:placeholder-design-orange:hover::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:hover\:placeholder-design-orange:hover:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:hover\:placeholder-design-orange:hover::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:hover\:placeholder-design-orange:hover::placeholder {
+    color: #ff6641;
   }
 
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -47687,6 +47895,26 @@ html{
     color: #262626;
   }
 
+  .sm\:focus\:placeholder-design-orange:focus::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:focus\:placeholder-design-orange:focus::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:focus\:placeholder-design-orange:focus:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:focus\:placeholder-design-orange:focus::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .sm\:focus\:placeholder-design-orange:focus::placeholder {
+    color: #ff6641;
+  }
+
   .group:hover .sm\:group-hover\:placeholder-transparent::-webkit-input-placeholder {
     color: transparent;
   }
@@ -49487,6 +49715,26 @@ html{
     color: #262626;
   }
 
+  .group:hover .sm\:group-hover\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .sm\:group-hover\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .sm\:group-hover\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .sm\:group-hover\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .sm\:group-hover\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -50579,6 +50827,10 @@ html{
     color: #262626;
   }
 
+  .sm\:text-design-orange {
+    color: #ff6641;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -50937,6 +51189,10 @@ html{
 
   .sm\:hover\:text-default:hover {
     color: #262626;
+  }
+
+  .sm\:hover\:text-design-orange:hover {
+    color: #ff6641;
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -51299,6 +51555,10 @@ html{
     color: #262626;
   }
 
+  .sm\:focus\:text-design-orange:focus {
+    color: #ff6641;
+  }
+
   .group:hover .sm\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -51657,6 +51917,10 @@ html{
 
   .group:hover .sm\:group-hover\:text-default {
     color: #262626;
+  }
+
+  .group:hover .sm\:group-hover\:text-design-orange {
+    color: #ff6641;
   }
 
   .sm\:text-xs {
@@ -54189,6 +54453,10 @@ html{
     background-color: #262626;
   }
 
+  .md\:bg-design-orange {
+    background-color: #ff6641;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -54547,6 +54815,10 @@ html{
 
   .md\:hover\:bg-default:hover {
     background-color: #262626;
+  }
+
+  .md\:hover\:bg-design-orange:hover {
+    background-color: #ff6641;
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -54909,6 +55181,10 @@ html{
     background-color: #262626;
   }
 
+  .md\:focus\:bg-design-orange:focus {
+    background-color: #ff6641;
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -55267,6 +55543,10 @@ html{
 
   .group:hover .md\:group-hover\:bg-default {
     background-color: #262626;
+  }
+
+  .group:hover .md\:group-hover\:bg-design-orange {
+    background-color: #ff6641;
   }
 
   .md\:bg-bottom {
@@ -55961,6 +56241,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .md\:border-design-orange {
+    border-color: #ff6641;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -56315,6 +56599,10 @@ html{
 
   .md\:hover\:border-lightgray:hover {
     border-color: #f6f6f6;
+  }
+
+  .md\:hover\:border-design-orange:hover {
+    border-color: #ff6641;
   }
 
   .md\:focus\:border-transparent:focus {
@@ -56673,6 +56961,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .md\:focus\:border-design-orange:focus {
+    border-color: #ff6641;
+  }
+
   .group:hover .md\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -57027,6 +57319,10 @@ html{
 
   .group:hover .md\:group-hover\:border-lightgray {
     border-color: #f6f6f6;
+  }
+
+  .group:hover .md\:group-hover\:border-design-orange {
+    border-color: #ff6641;
   }
 
   .md\:rounded-none {
@@ -70461,6 +70757,26 @@ html{
     color: #262626;
   }
 
+  .md\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .md\:hover\:placeholder-transparent:hover::-webkit-input-placeholder {
     color: transparent;
   }
@@ -72259,6 +72575,26 @@ html{
 
   .md\:hover\:placeholder-default:hover::placeholder {
     color: #262626;
+  }
+
+  .md\:hover\:placeholder-design-orange:hover::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:hover\:placeholder-design-orange:hover::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:hover\:placeholder-design-orange:hover:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:hover\:placeholder-design-orange:hover::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:hover\:placeholder-design-orange:hover::placeholder {
+    color: #ff6641;
   }
 
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -74061,6 +74397,26 @@ html{
     color: #262626;
   }
 
+  .md\:focus\:placeholder-design-orange:focus::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:focus\:placeholder-design-orange:focus::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:focus\:placeholder-design-orange:focus:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:focus\:placeholder-design-orange:focus::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .md\:focus\:placeholder-design-orange:focus::placeholder {
+    color: #ff6641;
+  }
+
   .group:hover .md\:group-hover\:placeholder-transparent::-webkit-input-placeholder {
     color: transparent;
   }
@@ -75861,6 +76217,26 @@ html{
     color: #262626;
   }
 
+  .group:hover .md\:group-hover\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .md\:group-hover\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .md\:group-hover\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .md\:group-hover\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .md\:group-hover\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -76953,6 +77329,10 @@ html{
     color: #262626;
   }
 
+  .md\:text-design-orange {
+    color: #ff6641;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -77311,6 +77691,10 @@ html{
 
   .md\:hover\:text-default:hover {
     color: #262626;
+  }
+
+  .md\:hover\:text-design-orange:hover {
+    color: #ff6641;
   }
 
   .md\:focus\:text-transparent:focus {
@@ -77673,6 +78057,10 @@ html{
     color: #262626;
   }
 
+  .md\:focus\:text-design-orange:focus {
+    color: #ff6641;
+  }
+
   .group:hover .md\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -78031,6 +78419,10 @@ html{
 
   .group:hover .md\:group-hover\:text-default {
     color: #262626;
+  }
+
+  .group:hover .md\:group-hover\:text-design-orange {
+    color: #ff6641;
   }
 
   .md\:text-xs {
@@ -80563,6 +80955,10 @@ html{
     background-color: #262626;
   }
 
+  .lg\:bg-design-orange {
+    background-color: #ff6641;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -80921,6 +81317,10 @@ html{
 
   .lg\:hover\:bg-default:hover {
     background-color: #262626;
+  }
+
+  .lg\:hover\:bg-design-orange:hover {
+    background-color: #ff6641;
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -81283,6 +81683,10 @@ html{
     background-color: #262626;
   }
 
+  .lg\:focus\:bg-design-orange:focus {
+    background-color: #ff6641;
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -81641,6 +82045,10 @@ html{
 
   .group:hover .lg\:group-hover\:bg-default {
     background-color: #262626;
+  }
+
+  .group:hover .lg\:group-hover\:bg-design-orange {
+    background-color: #ff6641;
   }
 
   .lg\:bg-bottom {
@@ -82335,6 +82743,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .lg\:border-design-orange {
+    border-color: #ff6641;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -82689,6 +83101,10 @@ html{
 
   .lg\:hover\:border-lightgray:hover {
     border-color: #f6f6f6;
+  }
+
+  .lg\:hover\:border-design-orange:hover {
+    border-color: #ff6641;
   }
 
   .lg\:focus\:border-transparent:focus {
@@ -83047,6 +83463,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .lg\:focus\:border-design-orange:focus {
+    border-color: #ff6641;
+  }
+
   .group:hover .lg\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -83401,6 +83821,10 @@ html{
 
   .group:hover .lg\:group-hover\:border-lightgray {
     border-color: #f6f6f6;
+  }
+
+  .group:hover .lg\:group-hover\:border-design-orange {
+    border-color: #ff6641;
   }
 
   .lg\:rounded-none {
@@ -96835,6 +97259,26 @@ html{
     color: #262626;
   }
 
+  .lg\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .lg\:hover\:placeholder-transparent:hover::-webkit-input-placeholder {
     color: transparent;
   }
@@ -98633,6 +99077,26 @@ html{
 
   .lg\:hover\:placeholder-default:hover::placeholder {
     color: #262626;
+  }
+
+  .lg\:hover\:placeholder-design-orange:hover::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:hover\:placeholder-design-orange:hover::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:hover\:placeholder-design-orange:hover:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:hover\:placeholder-design-orange:hover::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:hover\:placeholder-design-orange:hover::placeholder {
+    color: #ff6641;
   }
 
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -100435,6 +100899,26 @@ html{
     color: #262626;
   }
 
+  .lg\:focus\:placeholder-design-orange:focus::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:focus\:placeholder-design-orange:focus::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:focus\:placeholder-design-orange:focus:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:focus\:placeholder-design-orange:focus::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .lg\:focus\:placeholder-design-orange:focus::placeholder {
+    color: #ff6641;
+  }
+
   .group:hover .lg\:group-hover\:placeholder-transparent::-webkit-input-placeholder {
     color: transparent;
   }
@@ -102235,6 +102719,26 @@ html{
     color: #262626;
   }
 
+  .group:hover .lg\:group-hover\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .lg\:group-hover\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .lg\:group-hover\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .lg\:group-hover\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .lg\:group-hover\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -103327,6 +103831,10 @@ html{
     color: #262626;
   }
 
+  .lg\:text-design-orange {
+    color: #ff6641;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -103685,6 +104193,10 @@ html{
 
   .lg\:hover\:text-default:hover {
     color: #262626;
+  }
+
+  .lg\:hover\:text-design-orange:hover {
+    color: #ff6641;
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -104047,6 +104559,10 @@ html{
     color: #262626;
   }
 
+  .lg\:focus\:text-design-orange:focus {
+    color: #ff6641;
+  }
+
   .group:hover .lg\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -104405,6 +104921,10 @@ html{
 
   .group:hover .lg\:group-hover\:text-default {
     color: #262626;
+  }
+
+  .group:hover .lg\:group-hover\:text-design-orange {
+    color: #ff6641;
   }
 
   .lg\:text-xs {
@@ -106937,6 +107457,10 @@ html{
     background-color: #262626;
   }
 
+  .xl\:bg-design-orange {
+    background-color: #ff6641;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -107295,6 +107819,10 @@ html{
 
   .xl\:hover\:bg-default:hover {
     background-color: #262626;
+  }
+
+  .xl\:hover\:bg-design-orange:hover {
+    background-color: #ff6641;
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -107657,6 +108185,10 @@ html{
     background-color: #262626;
   }
 
+  .xl\:focus\:bg-design-orange:focus {
+    background-color: #ff6641;
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -108015,6 +108547,10 @@ html{
 
   .group:hover .xl\:group-hover\:bg-default {
     background-color: #262626;
+  }
+
+  .group:hover .xl\:group-hover\:bg-design-orange {
+    background-color: #ff6641;
   }
 
   .xl\:bg-bottom {
@@ -108709,6 +109245,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .xl\:border-design-orange {
+    border-color: #ff6641;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -109063,6 +109603,10 @@ html{
 
   .xl\:hover\:border-lightgray:hover {
     border-color: #f6f6f6;
+  }
+
+  .xl\:hover\:border-design-orange:hover {
+    border-color: #ff6641;
   }
 
   .xl\:focus\:border-transparent:focus {
@@ -109421,6 +109965,10 @@ html{
     border-color: #f6f6f6;
   }
 
+  .xl\:focus\:border-design-orange:focus {
+    border-color: #ff6641;
+  }
+
   .group:hover .xl\:group-hover\:border-transparent {
     border-color: transparent;
   }
@@ -109775,6 +110323,10 @@ html{
 
   .group:hover .xl\:group-hover\:border-lightgray {
     border-color: #f6f6f6;
+  }
+
+  .group:hover .xl\:group-hover\:border-design-orange {
+    border-color: #ff6641;
   }
 
   .xl\:rounded-none {
@@ -123209,6 +123761,26 @@ html{
     color: #262626;
   }
 
+  .xl\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .xl\:hover\:placeholder-transparent:hover::-webkit-input-placeholder {
     color: transparent;
   }
@@ -125007,6 +125579,26 @@ html{
 
   .xl\:hover\:placeholder-default:hover::placeholder {
     color: #262626;
+  }
+
+  .xl\:hover\:placeholder-design-orange:hover::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:hover\:placeholder-design-orange:hover::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:hover\:placeholder-design-orange:hover:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:hover\:placeholder-design-orange:hover::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:hover\:placeholder-design-orange:hover::placeholder {
+    color: #ff6641;
   }
 
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
@@ -126809,6 +127401,26 @@ html{
     color: #262626;
   }
 
+  .xl\:focus\:placeholder-design-orange:focus::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:focus\:placeholder-design-orange:focus::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:focus\:placeholder-design-orange:focus:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:focus\:placeholder-design-orange:focus::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .xl\:focus\:placeholder-design-orange:focus::placeholder {
+    color: #ff6641;
+  }
+
   .group:hover .xl\:group-hover\:placeholder-transparent::-webkit-input-placeholder {
     color: transparent;
   }
@@ -128609,6 +129221,26 @@ html{
     color: #262626;
   }
 
+  .group:hover .xl\:group-hover\:placeholder-design-orange::-webkit-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .xl\:group-hover\:placeholder-design-orange::-moz-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .xl\:group-hover\:placeholder-design-orange:-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .xl\:group-hover\:placeholder-design-orange::-ms-input-placeholder {
+    color: #ff6641;
+  }
+
+  .group:hover .xl\:group-hover\:placeholder-design-orange::placeholder {
+    color: #ff6641;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -129701,6 +130333,10 @@ html{
     color: #262626;
   }
 
+  .xl\:text-design-orange {
+    color: #ff6641;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -130059,6 +130695,10 @@ html{
 
   .xl\:hover\:text-default:hover {
     color: #262626;
+  }
+
+  .xl\:hover\:text-design-orange:hover {
+    color: #ff6641;
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -130421,6 +131061,10 @@ html{
     color: #262626;
   }
 
+  .xl\:focus\:text-design-orange:focus {
+    color: #ff6641;
+  }
+
   .group:hover .xl\:group-hover\:text-transparent {
     color: transparent;
   }
@@ -130779,6 +131423,10 @@ html{
 
   .group:hover .xl\:group-hover\:text-default {
     color: #262626;
+  }
+
+  .group:hover .xl\:group-hover\:text-design-orange {
+    color: #ff6641;
   }
 
   .xl\:text-xs {

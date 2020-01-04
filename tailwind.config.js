@@ -7,7 +7,8 @@ module.exports = {
         'tertiary': '#f8f8f8',
         'green': '#6ac75a',
         'lightgray': '#f6f6f6',
-        'default': '#262626'
+        'default': '#262626',
+        'design-orange': '#ff6641'
       },
       letterSpacing:{
           'wider': '3px',

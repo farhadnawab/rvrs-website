@@ -42,6 +42,36 @@
         // animated top scrolling
         $('body, html').animate({scrollTop: pos});
     });
+
+    
+    $(document).on('click', '.tabs a', function(e) {
+        // target element id
+        
+        var id = $(this).attr('data-tab-open');
+        
+        // target element
+        var $id = $(id);
+        if ($id.length === 0) {
+            return;
+        }
+        //Tab link Functionality
+        $(".tabs a").removeClass("bg-white");
+        $(this).addClass("bg-white");
+
+        if(id == "#yearly"){
+            $(this).addClass("text-design-orange");
+            $("#yearly-mark").addClass("active");
+        }
+        else{
+            $(".tabs a").removeClass("text-design-orange");
+            $("#yearly-mark").removeClass("active");
+        }
+            
+        
+        //Tab Content Functionality
+        $(".tab-content").hide();
+        $id.fadeIn();
+    });
     
 }(jQuery));
 
