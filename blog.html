@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+  <title>RVRS</title>	
+
+  <meta name="keywords" content="RVRS" />
+  <meta name="description" content="RVRS">
+  <meta name="author" content="https://github.com/farhadnawab">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.ico">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    
+  <link href="assets/css/output.css" type="text/css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c772f6a9db.js" crossorigin="anonymous"></script>
+
+  <!-- Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ </head>
+ <body class="front leading-normal tracking-normal bg-white font-geomanist font-normal text-default">
+
+  <div class="main-wrapper overflow-hidden">
+    
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0">
+
+        <div class="w-full container max-w-6xl mx-auto px-4 py-4 flex items-center">
+
+            <div class="md:flex-1" data-aos="fade-right">
+                <a class="block w-24 sm:max-w-6xs logo" href="index.html">
+                    <img src="assets/img/logo.png" />
+                </a>
+            </div>
+
+            <div class="flex-1 text-center hidden md:block" data-aos="zoom-in" data-aos-delay="50">
+              <a href="blog.html" class="capitalize inline-block mr-6 hover:text-primary">Explore</a>
+              <a href="index.html#pricing-target" class="capitalize inline-block mr-6 hover:text-primary">Pricing</a>
+              <a href="about.html" class="capitalize inline-block mr-6 hover:text-primary">About</a>
+            </div>
+
+            <div class="flex-1 text-right" data-aos="fade-left" data-aos-delay="50">
+              <a href="https://app.rvrs.io/login" class="inline-block align-middle rounded-sm text-lg py-1 sm:py-2 px-3 sm:px-8 hover:bg-lightgray">Login</a>
+              <a href="https://app.rvrs.io/register" class="inline-block align-middle rounded-sm text-white text-lg py-1 sm:py-2 px-3 sm:px-8 bg-primary hover:bg-secondary">Sign Up</a>
+
+              <button id="nav-toggle" class="inline-block md:hidden align-middle px-3 py-2 appearance-none focus:outline-none" type="button" onclick="openMenu()">
+                  <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                  </svg>
+              </button>
+            </div>
+
+            <div class="w-full h-full py-20 px-5 z-50 bg-primary fixed top-0 left-0" id="nav-content">
+                <button class="absolute top-0 right-0 mr-5 mt-5" type="button" onclick="closeMenu()">
+                    <svg width="36px" height="36px" viewBox="0 0 36 36">
+                        <path d="M13.2813 11.7189L13.2813 0.780128C13.2813 0.349208 12.9319 -0.00012207 12.501 -0.00012207L12.499 -0.00012207C12.0681 -0.00012207 11.7188 0.349208 11.7188 0.780128L11.7188 11.7189L0.78025 11.7189C0.34933 11.7189 0 12.0682 0 12.4991L0 12.5011C0 12.932 0.34933 13.2814 0.78025 13.2814L11.7188 13.2814L11.7188 24.2196C11.7188 24.6505 12.0681 24.9999 12.499 24.9999L12.501 24.9999C12.9319 24.9999 13.2813 24.6505 13.2813 24.2196L13.2813 13.2814L24.2197 13.2814C24.6507 13.2814 25 12.932 25 12.5011L25 12.4991C25 12.0682 24.6507 11.7189 24.2197 11.7189L13.2813 11.7189Z" transform="matrix(0.7071066 0.7071069 -0.7071069 0.7071066 17.67773 0)" id="Combined-Shape" fill="#1A1919" fill-rule="evenodd" stroke="none" />
+                    </svg>
+                </button>
+
+                <ul class="list-reset flex h-full flex-col w-full max-w-2xl mx-auto text-5xl text-white font-hairline capitalize align-center justify-center text-center">
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="blog.html">Explore</a>
+                    </li>
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="index.html#pricing-target">Pricing</a>
+                    </li>
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="about.html">About</a>
+                    </li>
+                </ul>                
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Main Section-->
+    <section class="w-full container max-w-6xl mx-auto px-4 py-16">
+      
+      <div class="flex flex-col sm:flex-row">
+          
+          <!--Left Col-->
+          <div class="w-full sm:w-1/4 sm:pr-10">
+              
+              <h1 class="text-xl mb-4">Blog Articles</h1>
+
+              <ul class="list-reset">
+                  <li class="mt-2 block">
+                      <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Using rvrs</a>
+                  </li>
+                  <li class="mt-2 block">
+                      <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Linux Forensics</a>
+                  </li>
+                  <li class="mt-2 block">
+                      <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">CI/CD Security</a>
+                  </li>
+                  <li class="mt-2 block">
+                      <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Positive Intelligence</a>
+                  </li>
+              </ul>
+          </div>
+
+          <!--Right Col-->
+          <div class="w-full sm:w-3/4 mt-16 sm:mt-0" data-aos="fade-in" data-aos-delay="150" data-aos-offset="-1000">
+            <h1 class="text-4xl lg:text-5xl leading-tight">Using rvrs</h1>
+            <h2 class="text-2xl lg:text-3xl leading-tight">Methods, usecases and examples</h2>
+            
+            <div class="flex items-center mt-10">
+              <div class="flex items-center pr-10">
+                <img class="mr-5 rounded-full w-16" src="assets/img/naor.jpeg" />
+                <div>
+                  <div class="text-xl">Naor Penso</div>
+                  <div class="mt-1 opacity-50">rvrs founder</div>
+                </div>
+              </div>
+              <p class="leading-normal opacity-50 border-l border-solid border-gray-600 py-2 pl-3">12/04/2019</p>
+            </div>
+
+            <div class="mt-10">
+              <p class="leading-relaxed opacity-50 text-lg mb-3">Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone</p>
+              <p class="leading-relaxed opacity-50 text-lg">Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone</p>
+            </div>
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <!-- Join the RVRS Section -->
+    <section class="bg-lightgray relative" data-aos="fade-up" data-aos-duration="1000">
+      <div class="w-full container max-w-6xl mx-auto px-4 py-32 text-center">                        
+          <div class="inline-flex flex-col">
+
+            <div class="text-center">
+              <h1 class="flex-1 text-4xl lg:text-5-5xl leading-tight">Join Our Newsletter</h1>
+              <p class="text-lg mt-3 opacity-50">Get updates on new features, use-cases and practices<br/> for better cybersecurity operations</p>
+            </div>
+            
+            <div id="mc_embed_signup" class="mt-6">
+              <form action="https://rvrs.us4.list-manage.com/subscribe/post?u=1faaa79b5fc3ffb489756c7d4&id=f0b84d9b58" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll" class="flex">
+                    
+                    <div class="flex-1 flex items-center rounded-sm py-2 px-4" style="background-color: #ebebed;">                
+                      <i class="fas fa-envelope flex-shrink-0 mt-1 opacity-50"></i>                      
+                      <input type="email" value="" name="EMAIL" class="appearance-none bg-transparent border-none w-full ml-2 leading-tight focus:outline-none" id="mce-EMAIL" placeholder="Type your e-mail" required>
+                    </div>
+                    
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1faaa79b5fc3ffb489756c7d4_f0b84d9b58" tabindex="-1" value=""></div>
+                    
+                    <input type="submit" value="Get Started" name="subscribe" id="mc-embedded-subscribe" class="button cursor-pointer ml-6 flex-1 whitespace-no-wrap rounded-sm text-white text-lg py-1 sm:py-2 px-3 sm:px-6 border-2 border-solid border-primary bg-primary">
+                  </div>
+              </form>
+            </div>
+
+              
+
+            
+          </div>
+          
+              
+      </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="relative z-10">
+        <div class="container w-full max-w-6xl px-4 pt-12 mx-auto">
+
+            <div class="flex flex-col text-center md:flex-row md:text-left pb-12">
+
+                
+                <div class="flex-1 md:mr-20">
+                    <h1 class="text-xl md:mb-4">Get in touch</h1>
+
+                    <p class="opacity-75 leading-loose mb-1 md:mb-5 max-w-sm md:max-w-full mx-auto">We always love hearing thoughts, insights and feature requests. If you would like to contact us, just click on the button below</p>
+                    
+                    <a href="mailto:hello@rvrs.io" class="inline-block align-middle rounded-sm text-white hover:text-white py-1 px-2 sm:px-3 border-2 border-solid border-green bg-green hover:border-secondary hover:bg-secondary">Get in touch</a>
+                </div>
+
+                <div class="md:mr-20">
+                    <h1 class="text-xl md:mb-4 mt-6 md:mt-0">About</h1>
+
+                    <ul class="list-reset">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Mission</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Story</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">The Roadmap</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="md:mr-20">
+                    <h1 class="text-xl md:mb-4 mt-6 md:mt-0">Blog</h1>
+
+                    <ul class="list-reset">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Using rvrs</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Linux Forensics</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">CI/CD Security</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Positive Intelligence</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex-1 md:max-w-3xs">
+                    <h1 class="text-xl md:mb-4 mt-6 md:mt-0">API Documentation</h1>
+
+                    <p class="opacity-75 leading-loose mb-1 md:mb-5 max-w-sm md:max-w-full mx-auto">Access to rvrs is made with RESTful API’s. To read more about integrating with rvrs click here:</p>
+                    
+                    <a href="api/index.html" class="inline-block whitespace-no-wrap rounded-sm text-white hover:text-white py-1 px-2 sm:px-3 border-2 border-solid border-secondary hover:border-primary bg-secondary hover:bg-primary">
+                      API Documentation
+                    </a>
+                </div>  
+
+            </div>
+
+            <hr class="border-black opacity-25" />
+
+            <div class="overflow-hidden py-8 text-center sm:text-left">
+              <span class="sm:float-left block opacity-25">2018 Codestudio. All rights reserved</span>
+
+              <ul class="sm:float-right flex flex-wrap justify-center md:justify-start text-xl">
+                <li class="px-1 mb-2"><a href="/" class="opacity-25 hover:opacity-100 w-6 h-6 flex items-center justify-center"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="px-1 mb-2"><a href="/" class="opacity-25 hover:opacity-100 w-6 h-6 flex items-center justify-center"><i class="fab fa-google"></i></a></li>
+                <li class="px-1 mb-2"><a href="/" class="opacity-25 hover:opacity-100 w-6 h-6 flex items-center justify-center"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+        </div>
+    </footer>
+  </div>
+   
+</body>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ 
+ <!-- Animate On Scroll -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+ <!-- Lottie Animation Player -->
+ <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+ <script src="assets/js/main.js"></script> 
+
+ <!-- Hotjar Tracking Code for rvrs.io -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:1628070,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZRSHD334W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XZRSHD334W');
+</script>
+</html>
