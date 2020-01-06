@@ -19,9 +19,10 @@ module.exports = {
         'geomanist-book': 'geomanistbook'
       },
       fontSize: {
-        '2xs': '0.65em',
-        '3xs': '0.55em',
-        '4xs': '0.45em'
+        '2xs': '0.65rem',
+        '3xs': '0.55rem',
+        '4xs': '0.45rem',
+        '5-5xl': '3.5rem'
       },
       borderRadius: {
         'br-15': '15px',

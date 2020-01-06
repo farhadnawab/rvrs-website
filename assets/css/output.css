@@ -25361,15 +25361,19 @@ video {
 }
 
 .text-2xs {
-  font-size: 0.65em;
+  font-size: 0.65rem;
 }
 
 .text-3xs {
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 
 .text-4xs {
-  font-size: 0.45em;
+  font-size: 0.45rem;
+}
+
+.text-5-5xl {
+  font-size: 3.5rem;
 }
 
 .hover\:text-xs:hover {
@@ -25413,15 +25417,19 @@ video {
 }
 
 .hover\:text-2xs:hover {
-  font-size: 0.65em;
+  font-size: 0.65rem;
 }
 
 .hover\:text-3xs:hover {
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 
 .hover\:text-4xs:hover {
-  font-size: 0.45em;
+  font-size: 0.45rem;
+}
+
+.hover\:text-5-5xl:hover {
+  font-size: 3.5rem;
 }
 
 .focus\:text-xs:focus {
@@ -25465,15 +25473,19 @@ video {
 }
 
 .focus\:text-2xs:focus {
-  font-size: 0.65em;
+  font-size: 0.65rem;
 }
 
 .focus\:text-3xs:focus {
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 
 .focus\:text-4xs:focus {
-  font-size: 0.45em;
+  font-size: 0.45rem;
+}
+
+.focus\:text-5-5xl:focus {
+  font-size: 3.5rem;
 }
 
 .group:hover .group-hover\:text-xs {
@@ -25517,15 +25529,19 @@ video {
 }
 
 .group:hover .group-hover\:text-2xs {
-  font-size: 0.65em;
+  font-size: 0.65rem;
 }
 
 .group:hover .group-hover\:text-3xs {
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 
 .group:hover .group-hover\:text-4xs {
-  font-size: 0.45em;
+  font-size: 0.45rem;
+}
+
+.group:hover .group-hover\:text-5-5xl {
+  font-size: 3.5rem;
 }
 
 .italic {
@@ -51964,15 +51980,19 @@ html{
   }
 
   .sm\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .sm\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .sm\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .sm\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .sm\:hover\:text-xs:hover {
@@ -52016,15 +52036,19 @@ html{
   }
 
   .sm\:hover\:text-2xs:hover {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .sm\:hover\:text-3xs:hover {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .sm\:hover\:text-4xs:hover {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .sm\:hover\:text-5-5xl:hover {
+    font-size: 3.5rem;
   }
 
   .sm\:focus\:text-xs:focus {
@@ -52068,15 +52092,19 @@ html{
   }
 
   .sm\:focus\:text-2xs:focus {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .sm\:focus\:text-3xs:focus {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .sm\:focus\:text-4xs:focus {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .sm\:focus\:text-5-5xl:focus {
+    font-size: 3.5rem;
   }
 
   .group:hover .sm\:group-hover\:text-xs {
@@ -52120,15 +52148,19 @@ html{
   }
 
   .group:hover .sm\:group-hover\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .group:hover .sm\:group-hover\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .group:hover .sm\:group-hover\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .group:hover .sm\:group-hover\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .sm\:italic {
@@ -78466,15 +78498,19 @@ html{
   }
 
   .md\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .md\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .md\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .md\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .md\:hover\:text-xs:hover {
@@ -78518,15 +78554,19 @@ html{
   }
 
   .md\:hover\:text-2xs:hover {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .md\:hover\:text-3xs:hover {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .md\:hover\:text-4xs:hover {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .md\:hover\:text-5-5xl:hover {
+    font-size: 3.5rem;
   }
 
   .md\:focus\:text-xs:focus {
@@ -78570,15 +78610,19 @@ html{
   }
 
   .md\:focus\:text-2xs:focus {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .md\:focus\:text-3xs:focus {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .md\:focus\:text-4xs:focus {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .md\:focus\:text-5-5xl:focus {
+    font-size: 3.5rem;
   }
 
   .group:hover .md\:group-hover\:text-xs {
@@ -78622,15 +78666,19 @@ html{
   }
 
   .group:hover .md\:group-hover\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .group:hover .md\:group-hover\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .group:hover .md\:group-hover\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .group:hover .md\:group-hover\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .md\:italic {
@@ -104968,15 +105016,19 @@ html{
   }
 
   .lg\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .lg\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .lg\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .lg\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .lg\:hover\:text-xs:hover {
@@ -105020,15 +105072,19 @@ html{
   }
 
   .lg\:hover\:text-2xs:hover {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .lg\:hover\:text-3xs:hover {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .lg\:hover\:text-4xs:hover {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .lg\:hover\:text-5-5xl:hover {
+    font-size: 3.5rem;
   }
 
   .lg\:focus\:text-xs:focus {
@@ -105072,15 +105128,19 @@ html{
   }
 
   .lg\:focus\:text-2xs:focus {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .lg\:focus\:text-3xs:focus {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .lg\:focus\:text-4xs:focus {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .lg\:focus\:text-5-5xl:focus {
+    font-size: 3.5rem;
   }
 
   .group:hover .lg\:group-hover\:text-xs {
@@ -105124,15 +105184,19 @@ html{
   }
 
   .group:hover .lg\:group-hover\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .group:hover .lg\:group-hover\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .group:hover .lg\:group-hover\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .group:hover .lg\:group-hover\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .lg\:italic {
@@ -131470,15 +131534,19 @@ html{
   }
 
   .xl\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .xl\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .xl\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .xl\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .xl\:hover\:text-xs:hover {
@@ -131522,15 +131590,19 @@ html{
   }
 
   .xl\:hover\:text-2xs:hover {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .xl\:hover\:text-3xs:hover {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .xl\:hover\:text-4xs:hover {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .xl\:hover\:text-5-5xl:hover {
+    font-size: 3.5rem;
   }
 
   .xl\:focus\:text-xs:focus {
@@ -131574,15 +131646,19 @@ html{
   }
 
   .xl\:focus\:text-2xs:focus {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .xl\:focus\:text-3xs:focus {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .xl\:focus\:text-4xs:focus {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .xl\:focus\:text-5-5xl:focus {
+    font-size: 3.5rem;
   }
 
   .group:hover .xl\:group-hover\:text-xs {
@@ -131626,15 +131702,19 @@ html{
   }
 
   .group:hover .xl\:group-hover\:text-2xs {
-    font-size: 0.65em;
+    font-size: 0.65rem;
   }
 
   .group:hover .xl\:group-hover\:text-3xs {
-    font-size: 0.55em;
+    font-size: 0.55rem;
   }
 
   .group:hover .xl\:group-hover\:text-4xs {
-    font-size: 0.45em;
+    font-size: 0.45rem;
+  }
+
+  .group:hover .xl\:group-hover\:text-5-5xl {
+    font-size: 3.5rem;
   }
 
   .xl\:italic {
