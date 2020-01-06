@@ -214,7 +214,7 @@
     max-width: none;
 }
 
-body.scrolling section{
+/*body.scrolling section{
     -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
     -ms-filter: blur(3px);
@@ -222,7 +222,7 @@ body.scrolling section{
     filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='svgBlur' x='-5%' y='-5%' width='110%' height='110%'><feGaussianBlur in='SourceGraphic' stdDeviation='5'/></filter></svg>#svgBlur");
     filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius = '3');
     filter: blur(3px);
-}
+}*/
 
 html{
     font-size: 11px;

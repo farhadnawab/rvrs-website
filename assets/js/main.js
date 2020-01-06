@@ -38,12 +38,12 @@
 
         // top position relative to the document
         var pos = $id.offset().top;
-        $("body").addClass("scrolling");
+        //$("body").addClass("scrolling");
 
 
         // animated top scrolling
-        $('body, html').animate({scrollTop: pos}, 800, function(){
-            $("body").removeClass("scrolling");
+        $('body, html').animate({scrollTop: pos}, 400, function(){
+            //$("body").removeClass("scrolling");
         });
     });
 
