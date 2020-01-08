@@ -55,7 +55,7 @@
         
         // target element
         var $id = $(id);
-        
+
         //Tab link Functionality
         $(".tabs a").removeClass("bg-white");
         $(this).addClass("bg-white");
@@ -63,21 +63,19 @@
         if(id == "#yearly"){
             $(this).addClass("text-design-orange");
             $("#yearly-mark").addClass("active");
+            $(".tab-wrapper").addClass("is-flipped");
         }
         else{
             $(".tabs a").removeClass("text-design-orange");
             $("#yearly-mark").removeClass("active");
+            $(".tab-wrapper").removeClass("is-flipped");
         }
-            
         
-        //Tab Content Functionality
-        $(".tab-content").removeClass("active");
-        $id.addClass("active");
-
+        
         $(".tab-wrapper").css("padding-top", $id.outerHeight());
     });
 
-    $(".tab-wrapper").css("padding-top", $(".tab-wrapper .tab-content.active").outerHeight());
+    $(".tab-wrapper").css("padding-top", $("#monthly").outerHeight());
     
 }(jQuery));
 

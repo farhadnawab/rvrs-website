@@ -48,7 +48,7 @@
 
             <div class="flex-1 text-right" data-aos="fade-left" data-aos-delay="50">
               <a href="https://app.rvrs.io/login" class="inline-block align-middle rounded-sm py-1 sm:py-2 px-3 sm:px-8 hover:bg-lightgray">Login</a>
-              <a href="https://app.rvrs.io/register" class="inline-block align-middle rounded-sm text-white text-lg py-1 sm:py-2 px-3 sm:px-8 bg-primary hover:bg-secondary">Sign Up</a>
+              <a href="https://app.rvrs.io/register" class="inline-block align-middle rounded-sm text-white py-1 sm:py-2 px-3 sm:px-8 bg-primary hover:bg-secondary">Sign Up</a>
 
               <button id="nav-toggle" class="inline-block md:hidden align-middle px-3 py-2 appearance-none focus:outline-none" type="button" onclick="openMenu()">
                   <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -235,9 +235,9 @@
                 <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Validate the integrity of files based on their signature and generate a file integrity monitoring policy based on true server usage</p>
                 
                 <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
-                <div id="pricing-target"></div>
+                
               </div>
-              
+              <div id="pricing-target"></div>
             </div>
 
           </div>
@@ -250,7 +250,7 @@
           
           <div class="flex flex-col items-center">
             <div class="w-full text-center sm:text-left">
-              <div class="max-w-xl">
+              <div class="max-w-xl mx-auto sm:mx-0">
                 <h1 class="text-4xl lg:text-5xl leading-tight">Pricing for everyone</h1>
                 
                 <p class="leading-normal opacity-50 text-lg mt-4">From a free account for professionals to enterprise plans, rvrs grants anyone access to critical cyber security insights</p>
@@ -266,11 +266,12 @@
             </div>
           </div>
 
+          <div class="tab-wrapper-parent">
           <div class="tab-wrapper relative">
             <!-- MONTHLY TAB -->
-            <div class="tab-content active" id="monthly">
-              <div class="flex flex-col sm:flex-row mt-12 -mx-3">
-                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+            <div class="tab-content" id="monthly">
+              <div class="flex flex-col sm:flex-row mt-5 -mx-3">
+                <div class="pricing-col bg-white relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
                   
                   <div class="px-6 sm:px-0 lg:px-10 flex-grow">
                     <div class="text-center">
@@ -285,7 +286,7 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  <a href="free-monthly.html" class="btn block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
                 </div>
 
@@ -306,11 +307,11 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
+                  <a href="pro-monthly.html" class="btn block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
 
                 </div>
 
-                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                <div class="pricing-col bg-white relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
                   
                   <div class="px-6 sm:px-0 lg:px-10 flex-grow">
                     <div class="text-center">
@@ -327,18 +328,18 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  <a href="enterprise-monthly.html" class="btn block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
                 </div>
               </div>
 
-              <p class="opacity-50 text-lg mt-5">Get 20% off with our yearly plan!</p>
+              <p class="discount-20 opacity-50 text-lg mt-5">Get 20% off with our yearly plan!</p>
 
             </div>
 
             <!-- YEARLY TAB -->
             <div class="tab-content" id="yearly">
-              <div class="flex flex-col sm:flex-row mt-12 -mx-3">
-                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+              <div class="flex flex-col sm:flex-row sm:flex-row-reverse mt-5 -mx-3">
+                <div class="pricing-col bg-white relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
                   
                   <div class="px-6 sm:px-0 lg:px-10 flex-grow">
                     <div class="text-center">
@@ -353,7 +354,7 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  <a href="starter-yearly.html" class="btn block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
                 </div>
 
@@ -374,11 +375,11 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
+                  <a href="pro-yearly.html" class="btn block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
 
                 </div>
 
-                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                <div class="pricing-col bg-white relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
                   
                   <div class="px-6 sm:px-0 lg:px-10 flex-grow">
                     <div class="text-center">
@@ -395,11 +396,12 @@
                     </ul>                
                   </div>
                   
-                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  <a href="enterprise-yearly.html" class="btn block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
                 </div>
               </div>
             </div>
+          </div>
           </div>
               
       </div>
