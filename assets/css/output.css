@@ -27654,6 +27654,8 @@ video {
 .tab-wrapper:not(.is-flipped) .pricing-card .back-card {
   z-index: -1;
   overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .tab-wrapper:not(.is-flipped) .pricing-card .front-card .btn{
