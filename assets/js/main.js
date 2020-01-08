@@ -51,31 +51,42 @@
     $(document).on('click', '.tabs a', function(e) {
         // target element id
         
-        var id = $(this).attr('data-tab-open');
+        var selector = $(this).attr('data-tab-open');
         
-        // target element
-        var $id = $(id);
-
         //Tab link Functionality
         $(".tabs a").removeClass("bg-white");
         $(this).addClass("bg-white");
 
-        if(id == "#yearly"){
+        if(selector == "yearly"){
             $(this).addClass("text-design-orange");
             $("#yearly-mark").addClass("active");
             $(".tab-wrapper").addClass("is-flipped");
+            $("#discount-20").hide();
         }
         else{
             $(".tabs a").removeClass("text-design-orange");
             $("#yearly-mark").removeClass("active");
             $(".tab-wrapper").removeClass("is-flipped");
+            $("#discount-20").show();
         }
         
         
-        $(".tab-wrapper").css("padding-top", $id.outerHeight());
+
+        $(".pricing-card").css("height", calMaxHeighOfCards());
     });
 
-    $(".tab-wrapper").css("padding-top", $("#monthly").outerHeight());
+    $(".pricing-card").css("height", calMaxHeighOfCards());
+
+    function calMaxHeighOfCards(){
+        var maxHeight = 0;
+
+        $(".pricing-card .front-card, .pricing-card .back-card").each(function(){
+            var thisH = $(this).outerHeight(true);
+            if (thisH > maxHeight) { maxHeight = thisH; }
+        });
+
+        return maxHeight;
+    }
     
 }(jQuery));
 

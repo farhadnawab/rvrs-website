@@ -27611,12 +27611,13 @@ video {
     filter: blur(3px);
 }*/
 
-.tab-wrapper-parent{
+.tab-wrapper{
   -webkit-perspective: 1120px;
   perspective: 1120px;
 }
 
-.tab-wrapper{
+.tab-wrapper .pricing-card{
+  position: relative;
   -webkit-transition: transform 1s;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
@@ -27626,34 +27627,45 @@ video {
   transform-style: preserve-3d;
 }
 
-.tab-wrapper.is-flipped{
+.tab-wrapper.is-flipped .pricing-card{
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
-.tab-content{
+.tab-wrapper .pricing-card .front-card,
+.tab-wrapper .pricing-card .back-card{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
 }
 
-#yearly .pricing-col{
+.tab-wrapper .pricing-card .back-card{
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
-.tab-wrapper:not(.is-flipped) #monthly {
+.tab-wrapper:not(.is-flipped) .pricing-card .front-card {
   z-index: 1;
 }
 
-.tab-wrapper:not(.is-flipped) #yearly {
+.tab-wrapper:not(.is-flipped) .pricing-card .back-card {
   z-index: -1;
+  overflow: hidden;
 }
 
-.tab-wrapper.is-flipped .discount-20{
-  display: none;
+.tab-wrapper.is-flipped .pricing-card .front-card {
+  overflow: hidden;
+}
+
+.tab-wrapper:not(.is-flipped) .pricing-card .front-card .btn{
+  -webkit-transform:translateZ(0px);
+  transform:translateZ(0px);
+}
+
+.tab-wrapper.is-flipped .pricing-card .back-card .btn{
+  -webkit-transform:translateZ(0px);
+  transform:translateZ(0px);
 }
 
 html{
