@@ -40,13 +40,14 @@
             </div>
 
             <div class="flex-1 text-center hidden md:block" data-aos="zoom-in" data-aos-delay="50">
-              <a href="blog.html" class="capitalize inline-block mr-6 hover:text-primary">Explore</a>
+              <a href="#learn-more-target" class="capitalize inline-block mr-6 hover:text-primary">Explore</a>
               <a href="#pricing-target" class="capitalize inline-block mr-6 hover:text-primary">Pricing</a>
               <a href="about.html" class="capitalize inline-block mr-6 hover:text-primary">About</a>
+              <a href="using-rvrs.html" class="capitalize inline-block mr-6 hover:text-primary">Blog</a>
             </div>
 
             <div class="flex-1 text-right" data-aos="fade-left" data-aos-delay="50">
-              <a href="https://app.rvrs.io/login" class="inline-block align-middle rounded-sm text-lg py-1 sm:py-2 px-3 sm:px-8 hover:bg-lightgray">Login</a>
+              <a href="https://app.rvrs.io/login" class="inline-block align-middle rounded-sm py-1 sm:py-2 px-3 sm:px-8 hover:bg-lightgray">Login</a>
               <a href="https://app.rvrs.io/register" class="inline-block align-middle rounded-sm text-white text-lg py-1 sm:py-2 px-3 sm:px-8 bg-primary hover:bg-secondary">Sign Up</a>
 
               <button id="nav-toggle" class="inline-block md:hidden align-middle px-3 py-2 appearance-none focus:outline-none" type="button" onclick="openMenu()">
@@ -65,13 +66,16 @@
 
                 <ul class="list-reset flex h-full flex-col w-full max-w-2xl mx-auto text-5xl text-white font-hairline capitalize align-center justify-center text-center">
                     <li class="mb-5">
-                        <a class="hover:text-secondary" href="blog.html">Explore</a>
+                        <a class="hover:text-secondary" href="index.html#learn-more-target">Explore</a>
                     </li>
                     <li class="mb-5">
                         <a class="hover:text-secondary" href="index.html#pricing-target">Pricing</a>
                     </li>
                     <li class="mb-5">
                         <a class="hover:text-secondary" href="about.html">About</a>
+                    </li>
+                    <li class="mb-5">
+                        <a class="hover:text-secondary" href="using-rvrs.html">Blog</a>
                     </li>
                 </ul>                
             </div>
@@ -131,9 +135,9 @@
           
           <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center shadow-one">
+              <div class="relative w-full h-full bg-white text-default rounded-sm py-5 px-2 text-center shadow-one flex flex-col justify-center items-center min-h-64">
                 
-                <i class="far fa-shield-check inline-block text-5xl text-primary"></i>
+                <i class="fad fa-dot-circle inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">File Insights</div>
                 <p class="leading-normal opacity-50 mt-2">Convert any file signature to a complete history of the file, associated packages</p>
@@ -145,9 +149,9 @@
             </div>
 
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-5 pb-20 text-center shadow-one">
+              <div class="relative w-full h-full bg-white text-default rounded-sm py-5 px-5 text-center shadow-one flex flex-col justify-center items-center min-h-64">
                 
-                <i class="far fa-layer-group inline-block text-5xl text-primary"></i>
+                <i class="fad fa-atom-alt inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">Package Insights</div>
                 <p class="leading-normal opacity-50 mt-2">Validate packages, patch levels, updates and dependencies</p>
@@ -157,9 +161,9 @@
             </div>
 
             <div class="sm:flex-1 pt-16 pb-10 px-6 lg:px-10">
-              <div class="relative w-full h-full bg-white text-default rounded-sm pt-5 px-2 pb-20 text-center shadow-one">
+              <div class="relative w-full h-full bg-white text-default rounded-sm py-5 px-2 text-center shadow-one flex flex-col justify-center items-center min-h-64">
                 
-                <i class="far fa-cube inline-block text-5xl text-primary"></i>
+                <i class="fad fa-dna inline-block text-5xl text-primary"></i>
 
                 <div class="text-2xl mt-2">OS Validation</div>
                 <p class="leading-normal opacity-50 mt-2">Compare OS images and containers with official distributions of operating systems</p>
@@ -175,7 +179,7 @@
 
     <!-- The Awsome Things Section -->
     <section class="overflow-hidden relative" data-aos="fade-up" data-aos-duration="1000">
-      <div class="w-full container max-w-6xl mx-auto px-4 py-16">                        
+      <div class="w-full container max-w-6xl mx-auto px-4 py-24">                        
           
           <h1 class="text-center sm:text-left sm:w-1/2 text-4xl lg:text-5xl leading-tight mb-16">The awsome things you can do with rvrs</h1>
           
@@ -183,11 +187,11 @@
             <div class="sm:flex-1 py-4 px-6 lg:px-10">
               <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
                 
-                <i class="far fa-cube inline-block text-xl text-primary group-hover:text-white"></i>
+                <i class="fad fa-fire-alt inline-block text-xl text-primary group-hover:text-white"></i>
                 
 
-                <div class="text-3xl mt-2">Forensics</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Focus on abnormal files, services and packages on the investigated server and create cross-organization prevelance</p>
+                <div class="text-3xl mt-2 no-transition">Forensics</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Focus on abnormal files, services and packages on the investigated server and create cross-organization prevelance</p>
                 
                 <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
               </div>
@@ -196,11 +200,10 @@
             <div class="sm:flex-1 py-4 px-6 lg:px-10">
               <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
                 
-                <i class="far fa-fire-alt inline-block text-xl text-primary group-hover:text-white"></i>
+                <i class="fad fa-wand-magic inline-block text-xl text-primary group-hover:text-white"></i>
                 
-
-                <div class="text-3xl mt-2">CI/CD Security</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Integrate rvrs to your CI/CD pipeline and identify rogue service injection into containers and unknown files in OS images</p>
+                <div class="text-3xl mt-2 no-transition">CI/CD Security</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Integrate rvrs to your CI/CD pipeline and identify rogue service injection into containers and unknown files in OS images</p>
                 
                 <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
                 <img data-aos="fade-left" data-aos-delay="700" class="hidden sm:block absolute -z-10 top-0 right-0 pointer-events-none man-position" src="assets/img/man-vector.svg" />
@@ -213,11 +216,11 @@
             <div class="sm:flex-1 py-4 px-6 lg:px-10">
               <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
                 
-                <i class="fad fa-puzzle-piece inline-block text-xl text-primary group-hover:text-white"></i>
+                <i class="fad fa-user-secret inline-block text-xl text-primary group-hover:text-white"></i>
                 
 
-                <div class="text-3xl mt-2">Server Hardening</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Create the definitive list of services and packages installed on a server and whitelist all associated files and versions.</p>
+                <div class="text-3xl mt-2 no-transition">Server Hardening</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Create the definitive list of services and packages installed on a server and whitelist all associated files and versions.</p>
                 
                 <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
               </div>
@@ -226,12 +229,10 @@
             <div class="sm:flex-1 py-4 px-6 lg:px-10">
               <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
 
-                
-                <i class="far fa-layer-group inline-block text-xl text-primary group-hover:text-white"></i>
-                
+                <i class="fad fa-file-certificate inline-block text-xl text-primary group-hover:text-white"></i>
 
-                <div class="text-3xl mt-2">File Integrity Monitoring</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2">Validate the integrity of files based on their signature and generate a file integrity monitoring policy based on true server usage</p>
+                <div class="text-3xl mt-2 no-transition">File Integrity Monitoring</div>
+                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Validate the integrity of files based on their signature and generate a file integrity monitoring policy based on true server usage</p>
                 
                 <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
                 <div id="pricing-target"></div>
@@ -247,8 +248,8 @@
     <section class="overflow-hidden relative" data-aos="fade-up" data-aos-duration="1000">
       <div class="w-full container max-w-6xl mx-auto px-4 py-16">                        
           
-          <div class="flex flex-col sm:flex-row items-center">
-            <div class="flex-1 text-center sm:text-left">
+          <div class="flex flex-col items-center">
+            <div class="w-full text-center sm:text-left">
               <div class="max-w-xl">
                 <h1 class="text-4xl lg:text-5xl leading-tight">Pricing for everyone</h1>
                 
@@ -256,7 +257,7 @@
               </div>
             </div>
 
-            <div class="mt-6 sm:mt-0">
+            <div class="mt-6">
               <ul class="inline-flex align-middle bg-tertiary rounded-sm p-1 tabs">
                 <li><a class="block bg-white py-2 px-4 text-primary rounded-sm" href="javascript:void(0)" data-tab-open="#monthly">Monthly</a></li>
                 <li><a class="block py-2 px-4 text-primary rounded-sm" href="javascript:void(0)" data-tab-open="#yearly">Yearly</a></li>
@@ -265,136 +266,138 @@
             </div>
           </div>
 
-          <!-- MONTHLY TAB -->
-          <div class="tab-content" id="monthly">
-            <div class="flex flex-col sm:flex-row mt-12 -mx-3">
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Starter</span>
+          <div class="tab-wrapper relative">
+            <!-- MONTHLY TAB -->
+            <div class="tab-content active" id="monthly">
+              <div class="flex flex-col sm:flex-row mt-12 -mx-3">
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Starter</span>
 
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">Free</h1>
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">Free</h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">1,000 API calls per month</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Community Support</li>
+                    </ul>                
                   </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">1,000 API calls per month</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Community Support</li>
-                  </ul>                
-                </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
+                </div>
+
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3 bg-black text-white">
+                  <img src="assets/img/rosette.svg" class="absolute top-0 right-0 mt-3 -mr-3 w-16 lg:w-24 pointer-events-none"></img>
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Pro</span>
+
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$399 <span class="text-base opacity-50">/month</span></h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">Unlimited API Access</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Package Insights</li>
+                      <li class="mb-2">Email Support</li>
+                    </ul>                
+                  </div>
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
+
+                </div>
+
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Enterprise</span>
+
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$899 <span class="text-base opacity-50">/month</span></h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">Unlimited API Access</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Package Insights</li>
+                      <li class="mb-2">OS Insights</li>
+                      <li class="mb-2">Enterprise Support</li>
+                    </ul>                
+                  </div>
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                </div>
               </div>
 
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3 bg-black text-white">
-                <img src="assets/img/rosette.png" class="absolute top-0 right-0 mt-3 -mr-3 w-16 lg:w-24 pointer-events-none"></img>
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Pro</span>
+              <p class="opacity-50 text-lg mt-5">Get 20% off with our yearly plan!</p>
 
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$399 <span class="text-base opacity-50">/month</span></h1>
-                  </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">Unlimited API Access</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Package Insights</li>
-                    <li class="mb-2">Email Support</li>
-                  </ul>                
-                </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
-
-              </div>
-
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Enterprise</span>
-
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$899 <span class="text-base opacity-50">/month</span></h1>
-                  </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">Unlimited API Access</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Package Insights</li>
-                    <li class="mb-2">OS Insights</li>
-                    <li class="mb-2">Enterprise Support</li>
-                  </ul>                
-                </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
-              </div>
             </div>
 
-            <p class="opacity-50 text-lg mt-5">Get 20% off with our yearly plan!</p>
+            <!-- YEARLY TAB -->
+            <div class="tab-content" id="yearly">
+              <div class="flex flex-col sm:flex-row mt-12 -mx-3">
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Starter</span>
 
-          </div>
-
-          <!-- YEARLY TAB -->
-          <div class="tab-content hidden" id="yearly">
-            <div class="flex flex-col sm:flex-row mt-12 -mx-3">
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Starter</span>
-
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">Free</h1>
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">Free</h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">1,000 API calls per month</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Community Support</li>
+                    </ul>                
                   </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">1,000 API calls per month</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Community Support</li>
-                  </ul>                
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+
                 </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
-              </div>
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3 bg-black text-white">
+                  <img src="assets/img/rosette.png" class="absolute top-0 right-0 mt-3 -mr-3 w-16 lg:w-24 pointer-events-none"></img>
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Pro</span>
 
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3 bg-black text-white">
-                <img src="assets/img/rosette.png" class="absolute top-0 right-0 mt-3 -mr-3 w-16 lg:w-24 pointer-events-none"></img>
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Pro</span>
-
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$320 <span class="text-base opacity-50">/month</span></h1>
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$320 <span class="text-base opacity-50">/month</span></h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">Unlimited API Access</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Package Insights</li>
+                      <li class="mb-2">Email Support</li>
+                    </ul>                
                   </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">Unlimited API Access</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Package Insights</li>
-                    <li class="mb-2">Email Support</li>
-                  </ul>                
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
+
                 </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-white bg-primary text-center p-5 border border-solid border-primary rounded-sm">Select Plan</a>
 
-              </div>
+                <div class="pricing-col relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
+                  
+                  <div class="px-6 sm:px-0 lg:px-10 flex-grow">
+                    <div class="text-center">
+                      <span class="opacity-50">Enterprise</span>
 
-              <div class="relative flex flex-col flex-1 border border-solid border-gray-300 rounded-sm p-6 pt-12 m-3">
-                
-                <div class="px-6 sm:px-0 lg:px-10 flex-grow">
-                  <div class="text-center">
-                    <span class="opacity-50">Enterprise</span>
-
-                    <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$720 <span class="text-base opacity-50">/month</span></h1>
+                      <h1 class="text-3xl lg:text-4xl leading-tight mt-4">$720 <span class="text-base opacity-50">/month</span></h1>
+                    </div>
+                    <ul class="mt-6">
+                      <li class="mb-2">Unlimited API Access</li>
+                      <li class="mb-2">File Insights</li>
+                      <li class="mb-2">Package Insights</li>
+                      <li class="mb-2">OS Insights</li>
+                      <li class="mb-2">Enterprise Support</li>
+                    </ul>                
                   </div>
-                  <ul class="mt-6">
-                    <li class="mb-2">Unlimited API Access</li>
-                    <li class="mb-2">File Insights</li>
-                    <li class="mb-2">Package Insights</li>
-                    <li class="mb-2">OS Insights</li>
-                    <li class="mb-2">Enterprise Support</li>
-                  </ul>                
-                </div>
-                
-                <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
+                  
+                  <a href="javascript:void(0)" class="block mt-6 text-primary hover:text-white hover:bg-primary hover:border-primary text-center p-5 border border-solid border-gray-300 rounded-sm">Select Plan</a>
 
+                </div>
               </div>
             </div>
           </div>
@@ -460,13 +463,13 @@
 
                     <ul class="list-reset">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Mission</a>
+                            <a href="about.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Mission</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Story</a>
+                            <a href="about.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Story</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">The Roadmap</a>
+                            <a href="about.html#roadmap-target" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">The Roadmap</a>
                         </li>
                     </ul>
                 </div>
@@ -475,18 +478,18 @@
                     <h1 class="text-xl md:mb-4 mt-6 md:mt-0">Blog</h1>
 
                     <ul class="list-reset">
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Using rvrs</a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Linux Forensics</a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">CI/CD Security</a>
-                        </li>
-                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Positive Intelligence</a>
-                        </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                          <a href="using-rvrs.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Using rvrs</a>
+                      </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                          <a href="linux-forensics.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Linux Forensics</a>
+                      </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                          <a href="ci-cd-security.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">CI/CD Security</a>
+                      </li>
+                      <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                          <a href="positive-intelligence.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Positive Intelligence</a>
+                      </li>
                     </ul>
                 </div>
 

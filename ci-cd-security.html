@@ -83,106 +83,57 @@
         </div>
     </nav>
 
-    <!-- Hero Section-->
+    <!-- Main Section-->
     <section class="w-full container max-w-6xl mx-auto px-4 py-16">
       
-      <div class="flex flex-col sm:flex-row sm:flex-row-reverse">
-
-          <!--Right Col-->
-          <div class="flex-1" data-aos="fade-in" data-aos-delay="150" data-aos-offset="-1000">
-            <img data-aos="fade-left" data-aos-delay="700" class="-mt-10" src="assets/img/man-vector2.svg" />
-          </div>
+      <div class="flex flex-col sm:flex-row">
           
           <!--Left Col-->
-          <div class="flex-1 pt-4 sm:pr-10 text-center sm:text-left">
+          <div class="w-full sm:w-1/4 sm:pr-10">
               
-              <h1 class="text-4xl lg:text-5xl leading-tight" data-aos="fade-down" data-aos-delay="100" data-aos-offset="-1000">We are cybersecurity experts looking to make the world a safer place</h1>
-              
-              <div class="mt-6" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="-1000">
-                <p class="leading-normal opacity-50 text-lg mb-3">After many years in the cybersecurity industry, doing analytics, forensics and incident response, we have built internal tools to help us get the job done faster and better.</p>
-                <p class="leading-normal opacity-50 text-lg">From identification of well hidden malware to malicious packages, we built a toolbox and helped numerous organizations tackle their security problems efficiently</p>
-              </div>
+              <h1 class="text-xl mb-4">Blog Articles</h1>
 
+              <ul class="list-reset">
+                <li class="mt-2 block">
+                    <a href="using-rvrs.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Using rvrs</a>
+                </li>
+                <li class="mt-2 block">
+                    <a href="linux-forensics.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Linux Forensics</a>
+                </li>
+                <li class="mt-2 block">
+                    <a href="ci-cd-security.html" class="no-underline text-primary">CI/CD Security</a>
+                </li>
+                <li class="mt-2 block">
+                    <a href="positive-intelligence.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Positive Intelligence</a>
+                </li>
+              </ul>
+          </div>
+
+          <!--Right Col-->
+          <div class="w-full sm:w-3/4 mt-16 sm:mt-0" data-aos="fade-in" data-aos-delay="150" data-aos-offset="-1000">
+            <h1 class="text-4xl lg:text-5xl leading-tight">Using rvrs</h1>
+            <h2 class="text-2xl lg:text-3xl leading-tight">Methods, usecases and examples</h2>
+            
+            <div class="flex items-center mt-10">
+              <div class="flex items-center pr-10">
+                <img class="mr-5 rounded-full w-16" src="assets/img/naor.jpeg" />
+                <div>
+                  <div class="text-xl">Naor Penso</div>
+                  <div class="mt-1 opacity-50">rvrs founder</div>
+                </div>
+              </div>
+              <p class="leading-normal opacity-50 border-l border-solid border-gray-600 py-2 pl-3">12/04/2019</p>
+            </div>
+
+            <div class="mt-10">
+              <p class="leading-relaxed opacity-50 text-lg mb-3">Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone</p>
+              <p class="leading-relaxed opacity-50 text-lg">Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone Stream real-time video of your home, and receive notificatoins whenever motion is detected, with Canary’s 1080p HD camera. Perfect choice device for everyone</p>
+            </div>
 
           </div>
 
       </div>
 
-    </section>
-    
-    <!-- Our Mission Section -->
-    <section class="bg-primary relative" data-aos="fade-up" data-aos-duration="1000">
-      <div class="w-full container max-w-6xl mx-auto px-4 py-16 text-white">                        
-          <div class="flex items-center text-center sm:text-left">
-            <div id="roadmap-target"></div>
-            <h1 class="flex-1 text-3xl lg:text-4xl leading-tight">Our mission is to save thousands cybersecurity experts hours wasted every year on forensics and cybersecurity operations that can be automated</h1>
-          </div>
-      </div>
-    </section>
-
-    <!-- Coming Soon Section -->
-    <section class="overflow-hidden relative" data-aos="fade-up" data-aos-duration="1000">
-      <div class="w-full container max-w-6xl mx-auto px-4 py-16">                        
-          
-          <h1 class="text-center sm:text-left text-4xl lg:text-5-5xl leading-tight mb-2">Whats coming soon?</h1>
-          <p class="text-center sm:text-left leading-normal opacity-50 text-lg mb-16">We believe in transparency! here is our roadmap</p>
-          
-          <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
-            <div class="sm:flex-1 py-4 px-6 lg:px-10">
-              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
-                
-                <i class="fad fa-code-branch inline-block text-xl text-primary group-hover:text-white"></i>
-                
-                <div class="text-3xl mt-2 no-transition">Third party code</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">We are about to continue our positive intelligence approach with fingerprinting of all leading third party code repositories including NPM, Yarn, Composer and more. validating third party code will increase your trust in your CI/CD pipeline and third party packages.</p>
-                
-                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
-              </div>
-            </div>
-
-            <div class="sm:flex-1 py-4 px-6 lg:px-10">
-              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
-                
-                <i class="fad fa-siren-on inline-block text-xl text-primary group-hover:text-white"></i>
-                
-                <div class="text-3xl mt-2 no-transition">SIEM / SOAR Integration</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Instead of building your own integrations, we will create the connector for you, starting with Splunk as the SIEM tool of choise for most of our customers.</p>
-                
-                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
-                
-              </div>
-            </div>
-
-          </div>
-
-          <div class="flex flex-col sm:flex-row -mx-6 lg:-mx-10">
-            <div class="sm:flex-1 py-4 px-6 lg:px-10">
-              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
-                
-                <i class="fab fa-slack inline-block text-xl text-primary group-hover:text-white"></i>
-                
-                <div class="text-3xl mt-2 no-transition">Slack Integration</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Query rvrs directly from slack, to get faster responses iniside your incident management chat of operational disucssions.</p>
-                
-                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
-              </div>
-            </div>
-
-            <div class="sm:flex-1 py-4 px-6 lg:px-10">
-              <div class="group relative w-full h-full bg-tertiary hover:bg-primary hover:text-white hover:shadow-two text-default rounded-sm pt-5 px-8 pb-20">
-                
-                <i class="fad fa-tally inline-block text-xl text-primary group-hover:text-white"></i>
-                
-                <div class="text-3xl mt-2 no-transition">Prevelance Score</div>
-                <p class="leading-normal opacity-50 group-hover:opacity-100 mt-2 no-transition">Know more than the history of your files. learn how common they are across all rvrs customers (no name dropping, we promise!).</p>
-                
-                <img class="absolute bottom-0 left-0 pointer-events-none max-w-sm" src="assets/img/ovals.png" />
-              </div>
-            </div>
-
-          </div>
-              
-      </div>
     </section>
 
     <!-- Join the RVRS Section -->
@@ -249,7 +200,7 @@
                           <a href="about.html" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">Our Story</a>
                       </li>
                       <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                          <a href="#roadmap-target" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">The Roadmap</a>
+                          <a href="about.html#roadmap-target" class="no-underline opacity-75 hover:opacity-100 hover:text-primary">The Roadmap</a>
                       </li>
                     </ul>
                 </div>

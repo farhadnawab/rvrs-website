@@ -55,9 +55,7 @@
         
         // target element
         var $id = $(id);
-        if ($id.length === 0) {
-            return;
-        }
+        
         //Tab link Functionality
         $(".tabs a").removeClass("bg-white");
         $(this).addClass("bg-white");
@@ -73,9 +71,13 @@
             
         
         //Tab Content Functionality
-        $(".tab-content").hide();
-        $id.fadeIn();
+        $(".tab-content").removeClass("active");
+        $id.addClass("active");
+
+        $(".tab-wrapper").css("padding-top", $id.outerHeight());
     });
+
+    $(".tab-wrapper").css("padding-top", $(".tab-wrapper .tab-content.active").outerHeight());
     
 }(jQuery));
 

@@ -164,7 +164,7 @@
 @tailwind utilities;
 
 
-:hover{
+:not(.no-transition):hover{
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
@@ -224,6 +224,30 @@
     filter: blur(3px);
 }*/
 
+.tab-content{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.tab-content.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tab-content .pricing-col{
+    transform: rotateY(180deg);
+    -webkit-transition: all ease 1.5s;
+    -moz-transition: all ease 1.5s;
+    transition: all ease 1.5s;
+}
+.tab-content.active .pricing-col{
+    transform: rotateY(0deg);
+}
+
 html{
     font-size: 11px;
 }
@@ -241,7 +265,7 @@ html{
     .man-position{
         width: 420px;
         height: 545.5px;
-        margin-top: -301px;
+        margin-top: -305px;
         margin-right: -110px;
     }
 }
@@ -254,7 +278,7 @@ html{
     .man-position{
         width: 500px;
         height: 545.5px;
-        margin-top: -305px;
+        margin-top: -311px;
         margin-right: -230px;
     }
 }
@@ -267,7 +291,7 @@ html{
     .man-position{
         width: 636px;
         height: 545.5px;
-        margin-top: -315px;
+        margin-top: -322px;
         margin-right: -290px;
     }
 }
