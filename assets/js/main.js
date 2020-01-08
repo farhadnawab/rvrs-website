@@ -69,13 +69,10 @@
             $(".tab-wrapper").removeClass("is-flipped");
             $("#discount-20").show();
         }
-        
-        
-
-        $(".pricing-card").css("height", calMaxHeighOfCards());
+        //$(".pricing-card").css("min-height", calMaxHeighOfCards());
     });
 
-    $(".pricing-card").css("height", calMaxHeighOfCards());
+    $(".pricing-card").css("min-height", calMaxHeighOfCards());
 
     function calMaxHeighOfCards(){
         var maxHeight = 0;

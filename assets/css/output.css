@@ -27645,27 +27645,25 @@ video {
   transform: rotateY(180deg);
 }
 
-.tab-wrapper:not(.is-flipped) .pricing-card .front-card {
+.tab-wrapper:not(.is-flipped) .pricing-card .front-card,
+.tab-wrapper.is-flipped .pricing-card .back-card {
   z-index: 1;
 }
 
+.tab-wrapper.is-flipped .pricing-card .front-card,
 .tab-wrapper:not(.is-flipped) .pricing-card .back-card {
   z-index: -1;
   overflow: hidden;
 }
 
-.tab-wrapper.is-flipped .pricing-card .front-card {
-  overflow: hidden;
-}
-
 .tab-wrapper:not(.is-flipped) .pricing-card .front-card .btn{
-  -webkit-transform:translateZ(0px);
-  transform:translateZ(0px);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .tab-wrapper.is-flipped .pricing-card .back-card .btn{
-  -webkit-transform:translateZ(0px);
-  transform:translateZ(0px);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 html{
