@@ -277,6 +277,17 @@
     transform: rotateY(0deg);
 }
 
+.scale-boxes{
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+.scale-boxes:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 html{
     font-size: 11px;
 }
